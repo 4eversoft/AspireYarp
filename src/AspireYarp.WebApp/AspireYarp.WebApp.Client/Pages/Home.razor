@@ -1,0 +1,44 @@
+﻿@page "/"
+@attribute [StreamRendering]
+
+@inject HttpClient Api
+
+<PageTitle>AspireYarp | Home</PageTitle>
+
+@if (products is null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+    <MudGrid Class="pa-16" Spacing="5">
+        @foreach (var product in products)
+        {
+            <MudItem xs="4">
+                <MudCard>
+                    <MudCardMedia Image="@ProductImage(product.Id)" Height="200" />
+                    <MudCardContent>
+                        <MudText Typo="Typo.h5">@product.Name</MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+        }
+    </MudGrid>
+}
+
+@code {
+    private IEnumerable<Product>? products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Api.GetFromJsonAsync<IEnumerable<Product>>("api/v1/products");
+    }
+
+    private string ProductImage(int id) => $"/product-images/{id}";
+
+    private class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+    }
+}

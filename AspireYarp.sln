@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireYarp.ApiService", "src\AspireYarp.ApiService\AspireYarp.ApiService.csproj", "{B42A5017-7FEF-44D0-870A-02E24DE65FA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21E1DDA3-292E-498B-85F0-A3A4A6C78ED7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireYarp.ServiceDefaults", "src\AspireYarp.ServiceDefaults\AspireYarp.ServiceDefaults.csproj", "{57848478-5929-46C9-9C82-700E1103CF26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireYarp.AppHost", "src\AspireYarp.AppHost\AspireYarp.AppHost.csproj", "{8DB15E95-9675-4C4E-97C8-108B7CE61060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireYarp.WebApp", "src\AspireYarp.WebApp\AspireYarp.WebApp\AspireYarp.WebApp.csproj", "{475DB947-5E32-4179-B8C3-436690B8591F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireYarp.WebApp.Client", "src\AspireYarp.WebApp\AspireYarp.WebApp.Client\AspireYarp.WebApp.Client.csproj", "{212B27A9-77E4-46C5-9A3C-752AF89809DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B42A5017-7FEF-44D0-870A-02E24DE65FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42A5017-7FEF-44D0-870A-02E24DE65FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42A5017-7FEF-44D0-870A-02E24DE65FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42A5017-7FEF-44D0-870A-02E24DE65FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57848478-5929-46C9-9C82-700E1103CF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57848478-5929-46C9-9C82-700E1103CF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57848478-5929-46C9-9C82-700E1103CF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57848478-5929-46C9-9C82-700E1103CF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB15E95-9675-4C4E-97C8-108B7CE61060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB15E95-9675-4C4E-97C8-108B7CE61060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB15E95-9675-4C4E-97C8-108B7CE61060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB15E95-9675-4C4E-97C8-108B7CE61060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475DB947-5E32-4179-B8C3-436690B8591F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475DB947-5E32-4179-B8C3-436690B8591F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475DB947-5E32-4179-B8C3-436690B8591F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475DB947-5E32-4179-B8C3-436690B8591F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212B27A9-77E4-46C5-9A3C-752AF89809DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212B27A9-77E4-46C5-9A3C-752AF89809DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212B27A9-77E4-46C5-9A3C-752AF89809DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212B27A9-77E4-46C5-9A3C-752AF89809DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B42A5017-7FEF-44D0-870A-02E24DE65FA5} = {21E1DDA3-292E-498B-85F0-A3A4A6C78ED7}
+		{57848478-5929-46C9-9C82-700E1103CF26} = {21E1DDA3-292E-498B-85F0-A3A4A6C78ED7}
+		{8DB15E95-9675-4C4E-97C8-108B7CE61060} = {21E1DDA3-292E-498B-85F0-A3A4A6C78ED7}
+		{475DB947-5E32-4179-B8C3-436690B8591F} = {21E1DDA3-292E-498B-85F0-A3A4A6C78ED7}
+		{212B27A9-77E4-46C5-9A3C-752AF89809DC} = {21E1DDA3-292E-498B-85F0-A3A4A6C78ED7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50FB744D-B89B-4FA9-94CA-956047AEAC37}
+	EndGlobalSection
+EndGlobal
